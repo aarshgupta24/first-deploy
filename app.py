@@ -6,7 +6,8 @@ from sklearn.preprocessing import StandardScaler
 
 
 
-app = Flask(__name__)
+applicaiton = Flask(__name__)
+app = applicaiton
 
 lass = pickle.load(open('models/lass.pkl','rb'))
 scaler = pickle.load(open('models/scaler.pkl','rb'))
